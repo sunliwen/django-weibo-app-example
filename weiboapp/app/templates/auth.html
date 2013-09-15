@@ -1,0 +1,15 @@
+<script src="http://tjs.sjs.sinajs.cn/t35/apps/opent/js/frames/client.js" language="JavaScript"></script>
+
+<script> 
+
+//弹出授权弹层：
+function authLoad(){
+    App.AuthDialog.show({
+        client_id : '{{APP_KEY}}',    //必选，appkey
+        redirect_uri : '{{APP_URL}}',     //必选，授权后的回调地址，例如：http://apps.weibo.com/giftabc
+        height: 120,    //可选，默认距顶端120px
+        scope: "friendships_groups_read, friendships_groups_write", //可选，授权页scope参数
+    });
+}
+authLoad()
+</script>
