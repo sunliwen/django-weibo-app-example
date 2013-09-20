@@ -1,3 +1,3 @@
-APP_KEY='2249045142'
-APP_SECRET='d2716161e01076e511a5ed328df1d9b1'
+APP_KEY='1234567890'
+APP_SECRET='abc123def456ghi789'
 APP_URL='http://apps.weibo.com/djangoapp'
